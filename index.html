@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <!-- meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- link tags-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900|Work+Sans:300,400,500,600,700,800,900">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<style>
+	.mySlides {display:none;}
+	</style>
+    
+	
+	
+	<!-- title tag-->
+    <title>Kastamonu</title>
+  </head>
+  <body>
+  
+	<section id="above-the-fold">
+      <div class="container_wrapper">
+        <section id="navigation_container">
+          <div id="branding"><a href="index.html">
+              <h1 class="logo-container __center">
+                <div class="city">kas</div>
+                <div class="es">ta</div>
+                <div class="cape">monu</div>
+              </h1></a></div>
+          <label for="menu_icon"> <i class="fa fa-bars"></i></label>
+          <input id="menu_icon" type="checkbox">
+          <menu><a href="index.html"> şehrim</a><a href="miras.html"> mirasımız</a><a href="blog.html"> hakkımda</a><a href="blog.html"> eğitim bilgileri</a><a href="blog.html"> giriş yap</a>
+          </menu>
+        </section>
+        <h1 id="above-the-fold__description">
+          Kastamonu'yu gezin.
+        </h1>
+      </div>
+    </section>
+	<br>
+	<br>
+	
+		<div class="w3-content w3-display-container">
+	  <img class="mySlides" src="images/eski-kastamonu-1928.jpg" style="width:100%">
+	  <img class="mySlides" src="images/kastamonu-kalesi.jpg" style="width:100%">
+	  <img class="mySlides" src="images/kastamonu_meydan.jpg" style="width:100%">
+	  <img class="mySlides" src="images/kastamonu-manzara.jpg" style="width:100%">
+
+	  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+	  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+	</div>
+
+		<script>
+		var slideIndex = 1;
+		showDivs(slideIndex);
+
+		function plusDivs(n) {
+		  showDivs(slideIndex += n);
+		}
+
+		function showDivs(n) {
+		  var i;
+		  var x = document.getElementsByClassName("mySlides");
+		  if (n > x.length) {slideIndex = 1}
+		  if (n < 1) {slideIndex = x.length}
+		  for (i = 0; i < x.length; i++) {
+			x[i].style.display = "none";  
+		  }
+		  x[slideIndex-1].style.display = "block";  
+		}
+		</script>
+
+	
+	
+	
+	<br>
+    <section id="latest-review">
+      <h2 class="section-title">
+        <div class="color-city">kastamonu  </div>
+        <div class="color-cape">tarihi</div>
+      </h2>
+      <div class="container_wrapper">
+        <div class="grid_post_container">
+          <div class="post-card"><a class="post-card__category" >kastamonu</a>
+            <img class="post-card__featured-image"  src="images/eski-kastamonu-1928.jpg" style="width:100%">
+            <div class="post-card__details">
+              <h2><a >Kastamonu, </a></h2>
+              <p>Kastamonu, Türkiye Cumhuriyeti'nin Karadeniz Bölgesi'nde yer alan Kastamonu ilinin merkez şehridir.
+Gökırmak'ın bir kolu olan Karaçomak Deresi vadisinde kurulu bulunan şehrin denizden yüksekliği 774 metredir.
+Evliyalar şehri olarak da bilinen Kastamonu Anadolu'daki en eski şehirlerden biridir, antik çağ ve Türk-İslâm dönemine ait birçok tarihi eser vardır. Kastamonu Kalesi, Atabey Camii, Şeyh Şaban-ı Veli Türbesi, Yanık Sultan Türbesi, Nasrullah Camii, saat kulesi ve buna benzer birçok tarihi eser mevcuttur. Çivisiz yapı mimari olarak yapılan Mahmut Bey Camii de buradadır. Kastamonu kent merkezinde ayrıca Türkiye'de açılan ilk "Kent Tarihi Müzesi" bulunmaktadır.
+Kastamonu Saat Kulesi, Sultan II. Abdülhamit zamanında, şehrin doğusunda bulunan yamaç üzerine Kastamonu Valilerinden Abdurrahman Nureddin Paşa tarafından 1884-1885 yıllarında yaptırılmıştır. Kulenin saati de Avrupa'dan getirtilmiştir.
+Kastamonu'da yapılan çekme helvası tüm ülke içinde meşhurdur.</p><a class="post-card__avatar" >
+                <div class="avatar__circle"></div>
+                <div class="avatar__name"></div>
+                <div class="avatar__muted-line"></div></a>
+            </div>
+          </div>
+          <div class="post-card"><a class="post-card__category" >Diğer Bilgiler</a>
+            <img class="post-card__featured-image"  src="images/195703,serife-baci-aniti.png" style="width:100%">
+            <div class="post-card__details">
+              <h2><a >İklim, Spor, Nüfus, Bitki Örtüsü </a></h2>
+              <p>İklim <br>
+İlde iki çeşit iklim hüküm sürer. Kuzeyinde Karadeniz iklimi güneyinde ise İç Anadolu'nun kara iklimi görülür. Kıyıya paralel olarak uzanan İsfendiyar Dağları, Karadeniz ikliminin iç kısma girmesini önler. Kıyılarda yağış daha fazladır. Senede 20 gün kar yağar, 40 gün toprak karla örtülüdür. Sıcaklık -26,9° ile +38,7 °C arasında seyreder. Senelik yağış miktarı bölgelere göre 450 mm ile 1215 mm arasında değişir.
+Bitki Örtüsü <br>
+İl bitki örtüsü bakımından çok zengin sayılır. İl topraklarının % 67’si orman ve fundalıklarla, %29’u ekili-dikili alanlarla, %6,5’i çayır ve meralarla kaplıdır. %1,5'i tarıma elverişsiz topraklardır. Ormanlarda kayın, köknar, çam, karaağaç, gürgen, kestane ve ıhlamur ağaçları bulunur. Azdavay-Devrekâni arasında ise çam ağaçları çoğunluktadır.
+Spor <br>
+Bu maddedeki bilgilerin doğrulanabilmesi için ek kaynaklar gerekli. Lütfen güvenilir kaynaklar ekleyerek maddenin geliştirilmesine yardımcı olun. Kaynaksız içerik itiraz konusu olabilir ve kaldırılabilir.
+Kaynak ara: "Kastamonu" – haber · gazete · kitap · akademik · JSTOR (2020) (Bu şablonun nasıl ve ne zaman kaldırılması gerektiğini öğrenin)
+Kastamonu'da birçok ilçenin kendine özel futbol ve hentbol takımları bulunmaktadır. Özellikle hentbolda Bayanlar Süper Liginde 1 takımı Bulunmaktadır. Bunun dışında ilin profesyonel tek futbol takımı Kastamonuspor 1966 üst üste iki kez şampiyon olarak Bölgesel Amatör Ligden, 3.Lig 3.Gruba ve daha sonra da 2. Lig Kırmızı Gruba yükselmiştir. 2019-2020 sezonunda sponsorluk anlaşması gereği takımın adı GÜN MEDYA GRUP KASTAMONUSPOR olmuştur. Ayrıca Bölgesel Amatör Ligde'de ili Kastamonu İl Özel İdare temsil etmektedir.
+<br> Nüfus 
+<img class="post-card__featured-image"  src="images/2021-05-19_122354_tr.wikipedia.org.png" style="width:100%">
+
+</p><a class="post-card__avatar" >
+                <div class="avatar__circle"></div>
+                <div class="avatar__name"></div>
+                <div class="avatar__muted-line"></div></a>
+            </div>
+          </div>
+          <div class="post-card"><a class="post-card__category" >etimoloji</a>
+            <img class="post-card__featured-image"  src="images/195704,kastamonu-kalesi.png" style="width:100%">
+            <div class="post-card__details">
+              <h2><a >Kastamonu isminin türemesi hakkında birçok fikir vardır; </a></h2>
+              <p>Bir görüşe göre Kastamonu şehri ismini, Hitit döneminde aynı bölge için kullanılan Kastama isminden almıştır. Kastama ismi zamanla Kastamonu'ya dönüşmüştür.
+Bir başka görüşe göre Kastamonu şehri ismini, Gas ve Tumanna kelimelerinin birleşiminden almıştır. Gaslar ya da bilinen adıyla Kaşkalar Kastamonu'nun ilk yerleşimcilerindendir. Tumanna ise o dönemde Kastamonu üzerinde bulunan bir şehir/bölge ismidir. Bu iki kelimenin birleşimi, zamanla Kastamonu şeklini almıştır.
+Üçüncü bir görüşe göre ise Kastamonu şehri ismini, Kastra ve Komnen kelimelerinin birleşiminden almıştır. Kastra kelimesi Latince "kale" demektir. Komnenler ise, bir Bizans Hanedanı olup bu bölgenin Bizans dönemindeki yerleşimcileridir. Bu iki kelime zamanla Kastamonu şeklini almıştır. </p><a class="post-card__avatar" href="post.html">
+                <div class="avatar__circle"></div>
+                <div class="avatar__name"></div>
+                <div class="avatar__muted-line"></div></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container_wrapper">
+        <div id="footer__site_description">
+          <h1 class="logo-container __center">
+            <div class="city">kas</div>
+            <div class="es">ta</div>
+            <div class="cape">monu</div>
+          </h1>
+          <h3>gezin, görün, keşfedin</h3>
+          <p>
+            .....
+          </p>
+        </div>
+        <div id="footer__social_media">
+          <h3>sosyal medya</h3>
+          <ul>
+            <li><a href="https://twitter.com/KastamonuBelBsk"><i class="fa fa-twitter"></i>@KastamonuBelBsk</a></li>
+            <li><a href="https://www.facebook.com/KastamonuBelBsk"><i class="fa fa-facebook-square"></i>@KastamonuBelBsk</a></li>
+            <li><a href="https://www.kastamonu.bel.tr/v2/iletisim-bilgileri/"><i class="fa fa-envelope"></i>hilalmasa@kastamonu.bel.tr</a></li>
+			
+          </ul>
+        </div>
+        <div id="footer__pages">
+          <h3>sayfalar</h3>
+          <ul>
+            <li><a href="#">şehrim</a></li>
+            <li><a href="#">mirasımız</a></li>
+            <li><a href="#">hakkımda</a></li>
+            <li><a href="#">eğitim bilgileri</a></li>
+            <li><a href="#">giriş yap</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="js/script.min.js"></script>
+  </body>
+</html>
