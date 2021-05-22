@@ -1,0 +1,76 @@
+<html lang="tr">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>İletişim</title>
+	</head>
+	<form method="post" enctype="application/x-www-form-urlencoded" action="iletisim.php">
+
+	<p>
+	<label>Ad
+	<input type="text" name="musteri" required>
+	</label> 
+	</p>
+
+	<p>
+	<label>Telefon 
+	<input type="tel" name="telefon">
+	</label>
+	</p>
+
+	<p>
+	<label>Email 
+	<input type="email" name="email">
+	</label>
+	</p>
+
+	<fieldset>
+	<legend>Cinsiyet?</legend>
+	<p><label> <input type="radio" name="cins" required value="Erkek"> Erkek</label></p>
+	<p><label> <input type="radio" name="cins" required value="Kadın"> Kadın </label></p>
+	<p><label> <input type="radio" name="cins" required value="Diğer"> Diğer </label></p>
+	</fieldset>
+
+	<fieldset>
+	<legend>İletişim Nedeni</legend>
+	<p><label> <input type="checkbox" name="neden" value="Şikayet"> Şikayet </label></p>
+	<p><label> <input type="checkbox" name="neden" value="İstek"> İstek </label></p>
+	<p><label> <input type="checkbox" name="neden" value="Talep"> Talep </label></p>
+	</fieldset>
+
+	<p>
+	<label>Tarih
+	<input type="datetime-local" name="tarih" required>
+	</label>
+	</p>
+		
+	<p>
+	<label>Yaş
+	<select  name="yas">
+	<option value="18-24" selected="selected">18-24</option>
+	<option value="24-40" >24-40</option>
+	<option value="40-60" >40-60</option>
+	<option value="Tahmin et!" >Tahmin et!</option>
+	</select>
+	</label> 
+	</p>
+
+	
+	<p>
+	<label>Özel talepler
+	<textarea name="yorum" maxlength="500"></textarea>
+	</label>
+	</p>
+
+	<p><button>Gönder</button></p>
+	<section >   
+                
+        <h1 id="above-the-fold__description" >
+         <a href="index.html"> Anasayfa.</a>
+        </h1>
+      </div>
+    </section> 
+	</form>
+</html>	
+	
